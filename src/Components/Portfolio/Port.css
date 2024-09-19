@@ -1,0 +1,77 @@
+ .port{
+   
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+
+.star{
+    color:#2C3E50;
+    font-weight: 900;
+    font-size: 28px;
+}
+.star::after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 140px;
+    background-color: #2C3E50;
+    bottom: 50%;
+    transform: translateY(50%);
+    margin-left: 10px;
+}
+
+.star::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 5px;
+    width: 140px;
+    background-color: #2C3E50;
+    bottom: 50%;
+    transform: translateY(50%);
+    margin-right: 30px;
+}
+
+
+.port i{
+    font-size: 110px;
+    color: rgb(255, 255, 255);
+}
+/* .port .add{
+    background-color: #2fad96c9;
+    border-radius: 10px;
+    
+} */
+
+.port img{
+    border-radius: 10px;
+}
+/* .port img:hover .add{
+   
+  opacity: 1;
+} */
+*{
+    box-sizing: border-box;
+}
+
+
+.toLarge{
+   
+    height: 100vh;
+    background-color: #3e4c5a77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    position: fixed;
+    inset: 0;
+}
+.toLarge img{
+    width: 37%;
+
+}
+

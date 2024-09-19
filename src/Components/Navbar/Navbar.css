@@ -1,0 +1,37 @@
+nav {
+    min-height: 110px;
+    background-color: #2C3E50;
+    transition: height 0.3s ease;
+}
+nav .tsgheer{
+    height: 90px;
+}
+nav div .navbar-header {
+    line-height: 48px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul li .nav-link {
+    line-height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 12px;
+    padding-block: 6px;
+    border-radius: 10px;
+}
+
+ul .nav-link:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-link.active {
+    background-color: #1ABC9C;
+    color: #fff; 
+    text-decoration: none;
+}
